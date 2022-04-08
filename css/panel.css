@@ -1,0 +1,172 @@
+.admin-panel {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+}
+
+.menu{
+    margin: 20px 20px;
+    border-left: 1px solid #DDD;
+}
+
+.menu .user .user-image{
+    display: flex;
+    width: 30%;
+
+}
+
+.menu .user .user-image img{
+  width: 100%;
+  border-radius: 50%;
+  border: 1px solid #DDD;
+}
+
+
+.menu .user {
+  display: flex;
+justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #999;
+}
+
+.menu .user .user-name {
+
+  padding: 2px 15px;
+  font-size: .8em;
+}
+
+.menu .menu-items{
+    padding-top: 20px;
+
+}
+
+.menu .menu-items .item{
+    margin: 20px;
+    cursor: pointer;
+}
+
+.menu .menu-items .item i{
+    padding-left: 20px;
+}
+
+.menu .menu-items .item .name{
+
+}
+
+.contents header nav{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 10px;
+
+}
+.contents header nav .right{
+  display: flex;
+}
+
+.contents header nav .right .menu-icon{
+  padding-left: 10px;
+
+}
+
+
+.contents header nav .right .search-box{
+justify-items: left;
+align-items: center;
+justify-content:space-between;
+
+}
+
+.contents header nav .right .search-box input{
+  position: ;
+
+}
+
+.contents header nav .right .search-box i{
+  position: relative;
+  left: 15%;
+
+}
+
+.contents header nav .left{
+display: flex;
+padding: 0px 20px;
+}
+
+.contents header nav .left i{
+  padding: 0px 10px;
+  }
+
+.contents header .head{
+display: flex;
+justify-content: space-between;
+}
+.contents header .head h3{
+    
+}
+
+.contents header .head .lang{
+  margin: 0px 20px;
+    padding: 0px 20px;
+    align-self: center;
+    border: 1px solid #DDD;
+    border-radius: 5px;
+}
+
+
+.contents .content-items{
+  background-color: #CCC;
+    
+}
+.contents .content-items .mini-item{
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.contents .content-items .mini-item .items {
+  display: flex;
+  justify-content: space-around;
+  background-color: aliceblue;
+  border-radius: 10px;
+  margin: 10px;
+    
+}
+
+.contents .content-items .mini-item .items .left {
+    padding: 10px;
+}
+
+.contents .content-items .mini-item .items .right{
+    padding: 0px 10px;
+}
+
+.contents .content-items .mini-item .items .right .text{
+    color: blue;
+}
+
+.contents .content-items .content{
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+
+}
+
+.contents .content-items .content .title{
+  display: flex;
+  justify-content: space-between;
+    
+}
+
+.contents .content-items .content .title .name{
+    
+}
+
+.contents .content-items .content .title .icon i{
+  margin: 0px 5px;
+    
+}
+
+.contents .content-items .content .chart{
+    
+}

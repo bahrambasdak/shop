@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v6.1.1/css/all.css"
+      integrity="sha384-/frq1SRXYH/bSyou/HUp/hib7RVN1TawQYja658FEOodR/FQBKVqT9Ol+Oz3Olq5"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/panel.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="admin-panel">
+      <section class="menu">
+        <div class="user">
+          <span class="user-image">
+            <img src="./image/template.jpg" alt="" />
+          </span>
+          <span class="user-name">بهرام بسدک</span>
+        </div>
+        <div class="menu-items">
+          <div class="item">
+            <span class="icon">
+              <i class="fa-solid fa-user"></i>
+            </span>
+            <span class="name"> محصولات</span>
+          </div>
+          <div class="item">
+            <span class="icon">
+              <i class="fa-solid fa-user"></i>
+            </span>
+            <span class="name"> سفارش ها</span>
+          </div>
+          <div class="item">
+            <span class="icon">
+              <i class="fa-solid fa-user"></i>
+            </span>
+            <span class="name"> گزارش ها</span>
+          </div>
+          <div class="item">
+            <span class="icon">
+              <i class="fa-solid fa-user"></i>
+            </span>
+            <span class="name"> پشتیبانی</span>
+          </div>
+          <div class="item">
+            <span class="icon">
+              <i class="fa-solid fa-user"></i>
+            </span>
+            <span class="name"> کاربرها</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="contents">
+        <header>
+          <nav>
+            <span class="right">
+              <span class="menu-icon"> <i class="fa-solid fa-user"></i></span>
+              <div class="search-box">
+                    <input type="text">
+                    <i class="fa-solid fa-user"></i>
+              </div>
+            </span>
+            <span class="left">
+                <i class="fa-solid fa-user"></i>
+                <i class="fa-solid fa-user"></i>
+                <i class="fa-solid fa-user"></i>
+            </span>
+          </nav>
+          <div class="head">
+            <h3>آخرین ورود دو روز پیش</h3>
+            <div class="lang">فارسی</div>
+          </div>
+        </header>
+
+        <div class="content-items">
+            <div class="mini-item">
+                <div class="items">
+                  <div class="left">
+                      <i class="fa-solid fa-user"></i>
+                  </div>
+                  <div class="right">
+                    <div class="text">تکمیل انبار</div>
+                    <div class="value">400</div>
+                  </div>
+                </div>
+      
+                <div class="items">
+                  <div class="left">
+                      <i class="fa-solid fa-user"></i>
+                  </div>
+                  <div class="right">
+                    <div class="text">تکمیل انبار</div>
+                    <div class="value">400</div>
+                  </div>
+                </div>
+      
+                <div class="items">
+                  <div class="left">
+                      <i class="fa-solid fa-user"></i>
+                  </div>
+                  <div class="right">
+                    <div class="text">تکمیل انبار</div>
+                    <div class="value">400</div>
+                  </div>
+                </div>
+      
+                <div class="items">
+                  <div class="left">
+                      <i class="fa-solid fa-user"></i>
+                  </div>
+                  <div class="right">
+                    <div class="text">تکمیل انبار</div>
+                    <div class="value">400</div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="content">
+                <div class="title">
+                  <span class="name">درآمد</span>
+                  <span class="icon">
+                      <i class="fa-solid fa-user"></i>
+                      <i class="fa-solid fa-user"></i>
+                  </span>
+                </div>
+                <div class="chart">
+                    <canvas id="myChart" width="400" height="400"></canvas>
+                </div>
+              </div>
+        </div>
+      </section>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="./js/panel.js"></script>
+    
+  </body>
+</html>
