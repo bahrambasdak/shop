@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css" 
+    integrity="sha384-/frq1SRXYH/bSyou/HUp/hib7RVN1TawQYja658FEOodR/FQBKVqT9Ol+Oz3Olq5" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/animation.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="./css/flexboxgrid.css">
+    <link rel="stylesheet" href="./css/owl.carousel.css">
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+            
+            <div class="nav-right">
+                <a href=""><i class="fa-solid fa-user"></i></a>
+                <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                <a href=""><i class="fa-solid fa-house-chimney"></i></a>
+                <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+            </div>
+            <div class="nav-left">
+                <div class="register-login-btn">
+                    <i class="fa-solid fa-user"></i>
+                    <a href="">ثبت نام / ورود</a>
+                </div>
+            </div>
+
+        </nav>
+        <section class="slider">
+            <div class="slides">
+                <div class="item animate__animated " id="slide1">
+                    <img src="./image/s1.PNG" alt="">
+                    <span>آهنگها رو زنده تر از اون چیزی که هستن گوش بده .</span>
+                </div>
+                <div class="item active animate__animated " id="slide2">
+                    <img src="./image/s2.PNG" alt="">
+                    <span style="color: white;">کیفیت صدایی که همیشه دنبالش بودی اینجاست</span>
+                </div>
+                <div class="item animate__animated" id="slide3">
+                    <img src="./image/s3.PNG" alt="">
+                    <span>رویاتو با صدای بلند گوش کن</span>
+                </div>
+                
+            </div>
+            <div class="buttons">
+                <i id="circle1" onclick="setSlide('slide1', 1)" class="fa-solid fa-circle"></i>
+                <i id="circle2" onclick="setSlide('slide2', 2)" class="fa-solid fa-circle"></i>
+                <i id="circle3" onclick="setSlide('slide3', 3)" class="fa-solid fa-circle"></i>
+            </div>
+        </section>
+    </header>
+    <main>
+        <section class="product-sec-new">
+            <div class="row">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <div class="shoping-card">
+                        <div class="img-sec">
+                            <img src="./image/card1.png" alt="">
+                            <span class="hot-offer">پیشنهاد ویژه </span>
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+
+                        <div class="title">هدست بی سیم رپو مدلS100</div>
+
+                        <div class="buttons">
+                            <div class="right">
+                                <span class="price">800 هزار تومان</span>
+                            </div>
+                            <div class="left">
+                                <div class="extend-btn">
+                                    <a class="b-text" href="">علاقه</a>
+                                    <a class="b-icon" href=""><i class="fa-solid fa-heart"></i></a>
+                                </div>
+                                <div class="extend-btn">
+                                    <a class="b-text" href="">خرید</a>
+                                    <a class="b-icon" href=""><i class="fa-solid fa-cart-arrow-down"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <div class="shoping-card">
+                        <div class="img-sec">
+                            <img src="./image/card2.png" alt="">
+                        
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+
+                        <div class="title">
+                            هدست کامپیوتر تسکو مدل TH5124                       
+                        </div>
+
+                        <div class="buttons">
+                            <div class="right">
+                                <span class="price">800 هزار تومان</span>
+                            </div>
+                            <div class="left">
+                                <div class="extend-btn">
+                                    <a class="b-text" href="">علاقه</a>
+                                    <a class="b-icon" href=""><i class="fa-solid fa-heart"></i></a>
+                                </div>
+                                <div class="extend-btn">
+                                    <a class="b-text" href="">خرید</a>
+                                    <a class="b-icon" href=""><i class="fa-solid fa-cart-arrow-down"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <div class="shoping-card">
+                        <div class="img-sec">
+                            <img src="./image/card3.png" alt="">
+                            <span class="hot-offer">پیشنهاد ویژه </span>
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+
+                        <div class="title">
+                            هدست بی سیم تسکو مدل TH5304                       
+                        </div>
+
+                        <div class="buttons">
+                            <div class="right">
+                                <span class="price">500 هزار تومان</span>
+                            </div>
+                            <div class="left">
+                                <div class="extend-btn">
+                                    <a class="b-text" href="">علاقه</a>
+                                    <a class="b-icon" href=""><i class="fa-solid fa-heart"></i></a>
+                                </div>
+                                <div class="extend-btn">
+                                    <a class="b-text" href="">خرید</a>
+                                    <a class="b-icon" href=""><i class="fa-solid fa-cart-arrow-down"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <div class="shoping-card">
+                        <div class="img-sec">
+                            <img src="./image/card4.png" alt="">
+                            <span class="hot-offer">پیشنهاد ویژه </span>
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+
+                        <div class="title">
+                            هدست بی سیم رپو مدل S100                      
+                        </div>
+
+                        <div class="buttons">
+                            <div class="right">
+                                <span class="price">900 هزار تومان</span>
+                            </div>
+                            <div class="left">
+                                <div class="extend-btn">
+                                    <a class="b-text" href="">علاقه</a>
+                                    <a class="b-icon" href=""><i class="fa-solid fa-heart"></i></a>
+                                </div>
+                                <div class="extend-btn">
+                                    <a class="b-text" href="">خرید</a>
+                                    <a class="b-icon" href=""><i class="fa-solid fa-cart-arrow-down"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+        <section class="super-offer-section">
+            <div class="right col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                <img src="./image/super-offer2.PNG" alt="">
+                <span class="toper">پیشنهاد شگفت انگیز</span>
+                <span class="price">1 میلیون تومان</span>
+                <span class="off">60٪تخفیف</span>
+                <span class="title">هدست ایسوس مدل Strix7.1</span>
+                <div class="timer">
+                    <span id="s"></span>
+                    <span id="m"></span>
+                    <span id="h"></span>
+                </div>
+                
+                <span class="end-time">زمان باقی مانده تا پایان سفارش</span>
+            </div>
+            <div class="left col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                <img  src="./image/super-offer1.PNG" alt="">
+            </div>
+
+
+        </section>
+
+        <section class="dragablelist ">
+            <section class="title">
+               <span> هندزفری ها</span>
+            </section>
+            <section id="owl-product" class="owl-carousel owl-theme">
+
+                <div class="item">
+                 <div class="shoping-card">
+                    <div class="img-sec">
+                        <img src="./image/card1.png" alt="">
+                        <span class="hot-offer">پیشنهاد ویژه </span>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+
+                    <div class="title">هدست بی سیم رپو مدلS100</div>
+
+                    <div class="buttons">
+                        <div class="right">
+                            <span class="price">800 هزار تومان</span>
+                        </div>
+                        <div class="left">
+                            <div class="extend-btn">
+                                <a class="b-text" href="">علاقه</a>
+                                <a class="b-icon" href=""><i class="fa-solid fa-heart"></i></a>
+                            </div>
+                            <div class="extend-btn">
+                                <a class="b-text" href="">خرید</a>
+                                <a class="b-icon" href=""><i class="fa-solid fa-cart-arrow-down"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                 </div>
+                 </div>
+
+              <div class="item">
+                <div class="shoping-card">
+                    <div class="img-sec">
+                        <img src="./image/card1.png" alt="">
+                        <span class="hot-offer">پیشنهاد ویژه </span>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+
+                    <div class="title">هدست بی سیم رپو مدلS100</div>
+
+                    <div class="buttons">
+                        <div class="right">
+                            <span class="price">800 هزار تومان</span>
+                        </div>
+                        <div class="left">
+                            <div class="extend-btn">
+                                <a class="b-text" href="">علاقه</a>
+                                <a class="b-icon" href=""><i class="fa-solid fa-heart"></i></a>
+                            </div>
+                            <div class="extend-btn">
+                                <a class="b-text" href="">خرید</a>
+                                <a class="b-icon" href=""><i class="fa-solid fa-cart-arrow-down"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+             </div>
+
+
+             <div class="item">
+                <div class="shoping-card">
+                    <div class="img-sec">
+                        <img src="./image/card1.png" alt="">
+                        <span class="hot-offer">پیشنهاد ویژه </span>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+
+                    <div class="title">هدست بی سیم رپو مدلS100</div>
+
+                    <div class="buttons">
+                        <div class="right">
+                            <span class="price">800 هزار تومان</span>
+                        </div>
+                        <div class="left">
+                            <div class="extend-btn">
+                                <a class="b-text" href="">علاقه</a>
+                                <a class="b-icon" href=""><i class="fa-solid fa-heart"></i></a>
+                            </div>
+                            <div class="extend-btn">
+                                <a class="b-text" href="">خرید</a>
+                                <a class="b-icon" href=""><i class="fa-solid fa-cart-arrow-down"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+             </div>
+
+
+
+             <div class="item">
+                <div class="shoping-card">
+                    <div class="img-sec">
+                        <img src="./image/card1.png" alt="">
+                        <span class="hot-offer">پیشنهاد ویژه </span>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+
+                    <div class="title">هدست بی سیم رپو مدلS100</div>
+
+                    <div class="buttons">
+                        <div class="right">
+                            <span class="price">800 هزار تومان</span>
+                        </div>
+                        <div class="left">
+                            <div class="extend-btn">
+                                <a class="b-text" href="">علاقه</a>
+                                <a class="b-icon" href=""><i class="fa-solid fa-heart"></i></a>
+                            </div>
+                            <div class="extend-btn">
+                                <a class="b-text" href="">خرید</a>
+                                <a class="b-icon" href=""><i class="fa-solid fa-cart-arrow-down"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+             </div>
+
+
+             <div class="item">
+                <div class="shoping-card">
+                   <div class="img-sec">
+                       <img src="./image/card1.png" alt="">
+                       <span class="hot-offer">پیشنهاد ویژه </span>
+                       <div class="stars">
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                       </div>
+                   </div>
+
+                   <div class="title">هدست بی سیم رپو مدلS100</div>
+
+                   <div class="buttons">
+                       <div class="right">
+                           <span class="price">800 هزار تومان</span>
+                       </div>
+                       <div class="left">
+                           <div class="extend-btn">
+                               <a class="b-text" href="">علاقه</a>
+                               <a class="b-icon" href=""><i class="fa-solid fa-heart"></i></a>
+                           </div>
+                           <div class="extend-btn">
+                               <a class="b-text" href="">خرید</a>
+                               <a class="b-icon" href=""><i class="fa-solid fa-cart-arrow-down"></i></a>
+                           </div>
+                       </div>
+                   </div>
+                </div>
+                </div>
+
+                <div class="item">
+                    <div class="shoping-card">
+                       <div class="img-sec">
+                           <img src="./image/card1.png" alt="">
+                           <span class="hot-offer">پیشنهاد ویژه </span>
+                           <div class="stars">
+                               <i class="fa-solid fa-star"></i>
+                               <i class="fa-solid fa-star"></i>
+                               <i class="fa-solid fa-star"></i>
+                               <i class="fa-solid fa-star"></i>
+                           </div>
+                       </div>
+   
+                       <div class="title">هدست بی سیم رپو مدلS100</div>
+   
+                       <div class="buttons">
+                           <div class="right">
+                               <span class="price">800 هزار تومان</span>
+                           </div>
+                           <div class="left">
+                               <div class="extend-btn">
+                                   <a class="b-text" href="">علاقه</a>
+                                   <a class="b-icon" href=""><i class="fa-solid fa-heart"></i></a>
+                               </div>
+                               <div class="extend-btn">
+                                   <a class="b-text" href="">خرید</a>
+                                   <a class="b-icon" href=""><i class="fa-solid fa-cart-arrow-down"></i></a>
+                               </div>
+                           </div>
+                       </div>
+                    </div>
+                    </div>
+             </section> 
+        </section>
+
+        
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/owl.carousel.min.js"></script>
+    <script src="./js/main.js"></script>
+ </body>
+ <footer>
+     <section class="footer">
+         <div class="des">
+             <section class="right col-lg-8">
+                 <section class="title">
+                     درباره ما
+                 </section>
+                 <section class="paragraf">
+                     <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.</p>
+                 </section>
+             </section>
+             <section class="left col-lg-4">
+                 <section class="title">
+                     ما را در شبکه های اجتمایی دنبال کنید
+                 </section>
+                 <section class="icon">
+                    <i class="fa fa-paper-plane" aria-hidden="true"></i>
+                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                    <i class="fa fa-user-circle" aria-hidden="true"></i>
+
+
+                 </section>
+             </section>
+         </div>
+         <section class="copy">
+             کلیه حقوق محفوظ می باشد
+         </section>
+     </section>
+     
+ </footer>
+ </html>

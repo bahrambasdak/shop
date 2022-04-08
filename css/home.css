@@ -1,0 +1,396 @@
+header{
+    font-size: 1em;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+    font-size: 1em;
+    
+}
+
+header nav .nav-right{
+display: flex;
+align-items: center;
+}
+
+header nav .nav-right a{
+color: #444;
+padding: 5px 10px;
+margin: 0px 5px;
+font-size: 1.1em;
+}
+
+header nav .nav-left .register-login-btn {
+border: 1px solid #666;
+padding: 5px 8px;
+border-radius: 5px;
+display: flex;
+align-items: center;
+justify-content: center;
+transition: .5s;
+}
+
+header nav .nav-left .register-login-btn:hover {
+    background-color: aqua;
+}
+
+header nav .nav-left .register-login-btn i{
+    margin: 7px;
+    color: #444;
+}
+
+header nav .nav-left .register-login-btn a{
+    color: #444;
+    margin: 0px 10px;
+    font-size: 0.9em;
+}
+
+
+
+/*=============slider seaction=========*/
+
+.slider{
+    position: relative;
+    font-size: 1em;
+
+}
+.slider .slides{
+    box-sizing: border-box;
+    margin: auto;
+    padding: 10px 10px;
+
+}
+
+.slider .slides .item{
+    position: relative;
+    display: none;
+
+}
+
+.slider .slides .item img{
+    width: 100%;
+    
+
+}
+
+.slider .slides .item span{
+    position: absolute;
+    right: 10%;
+    top: 40%;
+    font-size: 1.5em;
+    color: #222;
+    z-index: 1;
+
+}
+
+.slider .slides .active{
+display: block;
+animation:stileAnimation;
+animation-duration: 2s;
+}
+
+.slider .buttons{
+    position: absolute;
+    bottom: 30px;
+    left: 40px;
+    z-index: 1;
+
+}
+
+.slider .buttons i{
+    color: white; 
+    margin-right: 5px;
+    cursor: pointer;
+}
+.slider .buttons i:hover{
+color: red
+}
+
+
+
+
+/* Product Section*/
+
+.product-sec-new{
+    padding: 20px 10px;
+    font-size: 1em;
+
+}
+ .shoping-card{
+align-items: center;
+box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 2);
+border-radius: 5px;
+padding: 10px;
+margin: 10px 15px;
+
+}
+
+.shoping-card .img-sec{
+    position: relative;
+}
+
+.shoping-card .img-sec img{
+width: 40%;
+max-height: 120px;
+margin: auto;
+
+}
+
+.shoping-card .img-sec .hot-offer{
+    position: absolute;
+    background-color: #e67e22;
+    color: white;
+    padding: 3px 5px;
+    border-radius: 5px;
+    right: 0px;
+    top: 0px;
+    font-size: .8em;
+
+}
+
+.shoping-card .img-sec .stars{
+    color: rgb(190, 190, 42);
+    position: absolute;
+    left: 10px;
+    top: 10px;
+
+}
+
+.shoping-card .title{
+    color: #222;
+    margin: 15px;
+
+}
+
+.shoping-card .buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 15px;
+
+}
+
+.shoping-card .buttons .right{
+
+}
+
+.shoping-card .buttons .right .price{
+color: #666;
+font-weight: bold;
+}
+
+.shoping-card .buttons .left{
+display: flex;
+}
+
+.shoping-card .buttons .left{
+
+}
+
+.shoping-card .buttons .left .extend-btn{
+display: flex;
+margin-left: 5px;
+align-items: center;
+justify-content: space-between;
+background-color: #2ecc71;
+color: white;
+width: 40px;
+padding: 8px 12px;
+border-radius: 25px;
+cursor: pointer;
+transition: .75s;
+}
+
+.shoping-card .buttons .left .extend-btn:hover{
+    width: 100px;
+}
+
+.shoping-card .buttons .left .extend-btn .b-text{
+    display: none;
+    color: white;
+
+}
+
+.shoping-card .buttons .left .extend-btn:hover .b-text{
+display: block;
+}
+
+.shoping-card .buttons .left .extend-btn .b-icon{
+color: white;
+padding-top: 3px;
+}
+
+
+/*super-offer*/
+
+.super-offer-section{
+    position: relative;
+    margin: 20px;
+    border-radius: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.super-offer-section .left{
+position: absolute;
+left: 10%;
+
+
+}
+
+.super-offer-section .right{
+position: relative;
+box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 2);
+height:250px;
+border-radius: 10px;
+}
+
+.super-offer-section .right img{
+
+}
+
+.super-offer-section .right .toper{
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    border-top: 0px;
+    font-size: .8em;
+    font-weight: bold;
+    padding: 5px 10px;
+    background-color: #e67e22;
+    color: white;
+
+    border-radius: 0px 0px 20px 20px;
+
+}
+
+.super-offer-section .right .price{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+
+}
+
+.super-offer-section .right .off{
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    font-size: .7em;
+    font-weight: bold;
+    padding: 5px 10px;
+    background-color: #e67e22;
+    border-radius: 20px 20px 20px 20px;
+    color: white;
+}
+
+.super-offer-section .right .title{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+
+.super-offer-section .right .timer{
+    position: absolute;
+    bottom: 10%;
+    left: 40%;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 5px 10px;
+    color: #444;
+}
+
+.super-offer-section .right .end-time{
+    position: absolute;
+    bottom: 0%;
+    left: 40%;
+    font-size: .6em;
+    padding: 5px 10px;
+}
+
+/*================dragable list ==============*/
+
+.dragablelist{
+
+}
+
+.dragablelist .title span{
+    padding: 0px 0px 0px 0px;
+    font-size: 1.2em;
+    font-weight: bold;
+    border-bottom: 3px solid #e67e22;
+    margin: 10px 20px 10px 10px;
+}
+
+.dragablelist .list{
+
+}
+
+.owl-stage-outer{
+    direction: ltr;
+}
+
+.owl-carousel{
+    display: flex;
+}
+
+.dragablelist img{
+    width: 50% !important;
+    margin: auto;
+    
+}
+
+
+
+/*============footer===========*/
+
+.footer{
+    
+}
+.footer .des{
+    display: flex;
+    justify-content: space-between;
+    background-color: #666;
+    color: antiquewhite;
+    padding: 20px 20px;
+}
+
+.footer .des .right .title{
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding-top: 10px;
+
+}
+
+.footer .des .right .paragraf{
+    line-height: 2em;
+    font-size: .9em;
+    
+}
+
+.footer .des .left .title{
+    font-size: 1.2em;
+
+}
+
+.footer .des .left .icon{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px;
+    cursor: pointer;
+
+}
+
+.footer .copy{
+    display: flex;
+justify-content: center;
+background-color: #444;
+color: azure;
+}

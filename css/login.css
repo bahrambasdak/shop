@@ -1,0 +1,80 @@
+
+.login-contaner{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+    background: radial-gradient(circle farthest-corner at 10% 20%,rgba(90,92,106,1) 0%, rgba(32,45,58,1) 81.3%);
+}
+.right{
+    border-radius: 10px;
+    background-color: #666;
+    color: azure;
+    height: fit-content;
+    padding: 20px 20px;
+    margin: 50px 30px;
+    width: 60vw;
+}
+.right .user-name label{
+    display: block;
+    padding-right: 20px; 
+}
+.right .user-name input{
+border-radius: 20px;
+width: 95%;
+margin: 10px 10px;
+background-color: #666;
+border: 2px solid white;
+font-size: 1.2em;
+outline: none;
+color: white;
+}
+
+.right .password input{
+    border-radius: 20px;
+    width: 95%;
+    margin: 10px 10px;
+    background-color: #666;
+    border: 2px solid white;
+    font-size: 1.2em;
+    outline: none;
+    color: white;
+}
+
+.right .password label{
+    display: block;
+    padding-right: 20px; 
+}
+
+.right .submit-contaner{
+    display: flex;
+    justify-content: center;
+}
+
+.right .submit-contaner input{
+    color: aliceblue;
+    background-color:rgb(235, 121, 39);
+    border-radius: 20px;
+    padding: 10px 40px;
+    letter-spacing: 2px;
+    border: none;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.right .icon{
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+
+.left img{
+display: flex;
+height: 100vh;
+width: 30vw;
+padding: 20px 100px 20px 0px;
+
+
+}
