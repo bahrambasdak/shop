@@ -66,9 +66,13 @@ color: white;
     display: flex;
     justify-content: space-around;
     font-size: 1.2em;
-    margin-bottom: 20px;
+   margin: 10px 0px;
+    align-content: center;
 }
-
+.right .icon i{
+margin-top: 10px;
+cursor: pointer;
+}
 
 .left img{
 display: flex;

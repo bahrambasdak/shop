@@ -33,3 +33,28 @@ const myChart = new Chart(ctx, {
         }
     }
 });
+
+
+function toggleMenuDisplay(){
+    let menuItemNames = document.querySelectorAll(".menu .menu-items .item .name");
+    let userName = document.querySelector(".menu .user .userName");
+    let menu = document.querySelector(".menu");
+    let adminPanel = document.querySelector('.admin-panel');
+    menuItemNames.forEach(element => {
+        if (element.style.display != 'none') {
+            element.style.display = 'none';
+        }
+        else element.style.display = 'inline'
+    });
+
+    if (userName.style.display != 'none') {
+        userName.style.display = 'none';
+        //menu.style.display = 'none';
+        adminPanel.style.gridTemplateColumns = "1fr 13fr";
+    } else {
+        userName.style.display = 'inline';
+        adminPanel.style.gridTemplateColumns = "2fr 11fr";
+    }
+        
+    
+}

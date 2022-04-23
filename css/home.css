@@ -185,9 +185,7 @@ font-weight: bold;
 display: flex;
 }
 
-.shoping-card .buttons .left{
 
-}
 
 .shoping-card .buttons .left .extend-btn{
 display: flex;
@@ -204,8 +202,10 @@ transition: .75s;
 }
 
 .shoping-card .buttons .left .extend-btn:hover{
-    width: 100px;
+    width: 80px;
 }
+
+
 
 .shoping-card .buttons .left .extend-btn .b-text{
     display: none;
@@ -221,6 +221,8 @@ display: block;
 color: white;
 padding-top: 3px;
 }
+
+
 
 
 /*super-offer*/
@@ -351,6 +353,7 @@ border-radius: 10px;
 /*============footer===========*/
 
 .footer{
+
     
 }
 .footer .des{
@@ -375,17 +378,25 @@ border-radius: 10px;
     
 }
 
+.footer .des .left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .footer .des .left .title{
     font-size: 1.2em;
 
 }
-
+.footer .des .left .icon i{
+margin: 0px 30px;
+}
 .footer .des .left .icon{
     display: flex;
     justify-content: space-around;
     margin: 30px;
     cursor: pointer;
-
 }
 
 .footer .copy{
